@@ -1,0 +1,431 @@
+ /* ------------navbar  css-------------*/
+
+  .menubar_wraper .navbar-collapse{
+    flex: none;
+  }
+
+  .menubar_wraper .dropdown-toggle{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px 20px;
+    margin: 0 10px;
+  }
+
+    /*------------------slider css----------------------*/
+    
+    .carousel-indicators [data-bs-target]{
+      height: 8px;   /* carousel indicators css */
+      width: 8px;
+      border-radius: 100%;
+      }
+
+      .slider_wraper p{
+        margin-bottom: 270px;
+      }
+      .overlay_slider{
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+/*    <!-------------upcoming games part----------------->*/
+      
+      .upcoming{
+        margin: 70px 0;
+      }
+
+      .upcoming .fa-futbol{
+        color: limegreen;
+      }
+
+      .upcoming h4{
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 10px;
+        position: relative;
+      }
+
+      .upcoming h4:after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 72px;
+        background-color: limegreen;
+        bottom: -22px;
+        left: 19px;
+        }
+
+        .fa-arrow-left{
+          height: 20px;
+          width: 40px;
+          border: 2px solid limegreen;
+          border-radius: 15px;
+          padding: 5px 10px;
+          color: green;
+          background-color: limegreen;
+          color: white;
+        }
+    
+        .fa-arrow-right{
+          height: 20px;
+          width: 40px;
+          border: 2px solid limegreen;
+          border-radius: 15px;
+          padding: 5px 10px;
+          color: limegreen;
+        }
+
+        .upcoming h5{
+          text-align: center;
+          margin: 20px 0;
+        }
+        
+        
+
+      /* .upcoming .fa-futbol{
+        color: limegreen;
+      }
+
+	.upcoming h5{
+			font-size: 20px;
+    		font-weight: 600;
+    		text-align: center;
+		}
+		.upcoming h4{
+			font-size: 22px;
+			font-weight: 600;
+      margin-top: 10px;
+      position: relative;
+		}
+		.upcoming p{
+			font-size: 18px;
+		}
+            
+		.upcoming h4:after{
+		content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -22px;
+    left: 19px;
+		}
+    
+		.upcoming{
+			margin-top: 52px;
+		}
+		
+
+    .fa-arrow-left{
+      height: 20px;
+      width: 40px;
+      border: 2px solid limegreen;
+      border-radius: 15px;
+      padding: 5px 10px;
+      color: green;
+      background-color: limegreen;
+      color: white;
+    }
+
+    .fa-arrow-right{
+      height: 20px;
+      width: 40px;
+      border: 2px solid limegreen;
+      border-radius: 15px;
+      padding: 5px 10px;
+      color: limegreen;
+    } */
+      
+/*      <!---------------------about games part--------------->*/
+
+    .aboutgames_wraper .fa-futbol{
+      color: limegreen;
+    }
+
+    .aboutgames_wraper p{
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .aboutgames_wraper h2{
+      margin-top: 100px;
+      font-size: 24px;
+      position: relative;
+    }
+    .aboutgames_wraper h2:after{
+      content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -48%;
+    left: 4%;
+    }
+    .aboutgames_wraper{
+      margin-top: 34px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .aboutgames_wraper .btn-success{
+      background-color: limegreen;
+      border-radius: 20px;
+      width: 120px;
+      padding: 5px 0px ; 
+    }
+
+    /* -------------------gallery part css---------- */
+
+    .gallery_weraper .fa-futbol{
+      color: limegreen;
+    }
+
+    .gallery_weraper {
+      text-align: center;
+    }
+
+
+    .gallery_weraper h2{
+      margin-bottom: 0px;
+      font-size: 24px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .gallery_weraper h2:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      left: 506px;
+    }
+
+    .gallery_weraper h2:after{
+       content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      right: 506px;
+    }
+
+    .gallery_weraper p{
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .gallery_weraper .btn-success{
+      border-radius: 20px;
+      background-color: limegreen;
+      width: 120px;
+      padding: 6px 0px;
+      margin-top: 30px;
+    }
+
+    /*--------------------------overlay part----------------------------*/
+
+    .overlay_wrapper{
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px 0px;
+    }
+
+          .fa-football{
+            color: limegreen;
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+           }
+           .fa-helmet-safety{
+            color: limegreen;
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+           }
+           .fa-trophy{
+            color: limegreen;
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+           }
+           .fa-user{
+            color: limegreen;
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+           }
+           .man{
+            background-image: url(images/counter_bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 50%;
+            margin: 5% 0;
+            }
+           .man h4, h2{
+            color: white;
+            margin: 0px;
+           }
+           .counter_icon{
+            display: inline-block;
+           }
+           .counter_text{
+            display: inline-block;
+           }
+
+
+/*  <!------------------our sport part----------------->*/
+
+    .our_wraper{
+      margin-top: 60px;
+    }
+
+    .our_wraper .fa-futbol{
+      color: limegreen;
+    }
+    
+    .our_wraper h2{
+        text-align: center;
+        font-size: 22PX;
+        font-weight: 600;
+        position: relative;
+        color: black;
+    }
+
+    .our_wraper h2:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 45px;
+      background-color: limegreen;
+      margin: ;
+      bottom: 12px;
+      left: 500px;
+    }
+
+    .our_wraper h2:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 45px;
+      background-color: limegreen;
+      margin: ;
+      bottom: 12px;
+      right: 500px;
+    }
+
+    .our_wraper p{
+      text-align: center;
+    }
+
+    .our_wraper .card{
+      margin: 10px;
+    }
+    .our_wraper h5{
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: -6px;
+      font-weight: 600;
+    }
+
+    .our_wraper .btn-success{
+      border-radius: 20px;
+      background-color: limegreen;
+      width: 150px;
+      padding: 6px 0px;
+      margin: 30px 478px;
+    }
+
+
+/*    <!------------------------Event part--------------------->*/
+
+    .event_wraper{
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 50px 0px;
+    }
+
+    .event_wraper .fa-futbol{
+      color: limegreen;
+    }
+    .event_wraper .win{
+      background-color: white;
+      padding: 26px 30px 46px;
+    }
+
+    .event_wraper h1{
+      text-align: center;
+      font-size: 22px;
+      position: relative;
+    }
+
+    .event_wraper h1:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 50px;
+      background-color: limegreen;
+      margin:;
+      bottom: 20%;
+      left: 45%;
+    }
+
+    .event_wraper h1:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 50px;
+      background-color: limegreen;
+      margin:;
+      bottom: 20%;
+      right: 45%;
+    }
+
+    .event_wraper p{
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .event_wraper h2{
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .event_wraper h6{
+      text-align: center;
+    }
+
+    .event_wraper h5{
+      border: 1px solid yellow;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 6px;
+      background-color: yellow;
+      border-radius: 50%;
+      margin: 50px 136px;
+      position: relative;
+    }
+
+    .event_wraper h5:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 60px;
+      background-color: gray;
+      margin:;
+      bottom: 14px;
+      right: 60px;
+    }
+
+    .event_wraper h5:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 60px;
+      background-color: gray;
+      margin:;
+      bottom: 14px;
+      left: 60px;
+    }
+
+    .event_wraper .btn{
+      border-radius: 28px;
+      padding: 10px 30px;
+      margin: -28px 206px 0px;
+      font-size: 14px;
+    }
